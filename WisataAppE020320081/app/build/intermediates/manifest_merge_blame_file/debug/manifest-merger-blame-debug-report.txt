@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.azhar.wisatapurwakarta"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <uses-permission android:name="android.permission.REORDER_TASKS" />
+22-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:24:5-72
+22-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:24:22-69
+23
+24    <application
+24-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:9:5-38:19
+25        android:allowBackup="true"
+25-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:10:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:11:9-43
+29        android:label="@string/app_name"
+29-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:12:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:13:9-54
+31        android:supportsRtl="true"
+31-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:14:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme"
+33-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:15:9-40
+34        android:usesCleartextTraffic="true" >
+34-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:16:9-44
+35        <activity android:name="id.ac.poliban.mi.vc.aprian.wisataappe020320081.activities.PrayPlaceActivity" />
+35-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:17:9-112
+35-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:17:19-109
+36        <activity android:name="id.ac.poliban.mi.vc.aprian.wisataappe020320081.activities.DetailWisataActivity" />
+36-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:18:9-115
+36-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:18:19-112
+37        <activity android:name="id.ac.poliban.mi.vc.aprian.wisataappe020320081.activities.WisataActivity" />
+37-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:19:9-109
+37-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:19:19-106
+38        <activity android:name="id.ac.poliban.mi.vc.aprian.wisataappe020320081.activities.DetailKulinerActivity" />
+38-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:20:9-116
+38-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:20:19-113
+39        <activity android:name="id.ac.poliban.mi.vc.aprian.wisataappe020320081.activities.KulinerActivity" />
+39-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:21:9-110
+39-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:21:19-107
+40        <activity android:name="id.ac.poliban.mi.vc.aprian.wisataappe020320081.activities.DetailHotelActivity" />
+40-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:22:9-114
+40-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:22:19-111
+41        <activity android:name="id.ac.poliban.mi.vc.aprian.wisataappe020320081.activities.HotelActivity" />
+41-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:23:9-108
+41-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:23:19-105
+42        <activity android:name="id.ac.poliban.mi.vc.aprian.wisataappe020320081.activities.MainActivity" >
+42-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:24:9-30:20
+42-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:24:19-104
+43            <intent-filter>
+43-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:25:13-29:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:26:17-69
+44-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:26:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:28:17-77
+46-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:28:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <meta-data
+50-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:32:9-34:69
+51            android:name="com.google.android.gms.version"
+51-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:33:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:34:13-66
+53        <meta-data
+53-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:35:9-37:51
+54            android:name="com.google.android.geo.API_KEY"
+54-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:36:13-58
+55            android:value="Google Maps API KEY" />
+55-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:37:13-48
+56        <!-- Needs to be explicitly declared on P+ -->
+57        <uses-library
+57-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+58            android:name="org.apache.http.legacy"
+58-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+59            android:required="false" />
+59-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+60
+61        <activity
+61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+65        <activity
+65-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:27:9-34:20
+66            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+66-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:28:13-99
+67            android:exported="true"
+67-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:29:13-36
+68            android:theme="@style/WhiteBackgroundTheme" >
+68-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:30:13-56
+69            <intent-filter android:priority="-100" >
+69-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:31:13-33:29
+69-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:31:28-51
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:28:17-77
+70-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:28:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:35:9-42:20
+74            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+74-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:36:13-95
+75            android:exported="true"
+75-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:37:13-36
+76            android:theme="@style/WhiteBackgroundTheme" >
+76-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:38:13-56
+77            <intent-filter android:priority="-100" >
+77-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:31:13-33:29
+77-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:31:28-51
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:28:17-77
+78-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:28:27-74
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:43:9-50:20
+82            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+82-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:44:13-103
+83            android:exported="true"
+83-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:45:13-36
+84            android:theme="@style/WhiteBackgroundDialogTheme" >
+84-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:46:13-62
+85            <intent-filter android:priority="-100" >
+85-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:31:13-33:29
+85-->[androidx.test:core:1.5.0] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\520c8dfe92ab092badcab6a415ab8124\core-1.5.0\AndroidManifest.xml:31:28-51
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:28:17-77
+86-->D:\KULIAH\Semester 5\Pemrograman Berbasis Objek\UAS PBO\WisataAppE020320081\app\src\main\AndroidManifest.xml:28:27-74
+87            </intent-filter>
+88        </activity>
+89    </application>
+90
+91</manifest>
